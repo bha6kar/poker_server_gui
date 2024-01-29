@@ -1,18 +1,19 @@
 from pypokerengine.players import BasePokerPlayer
 
-from sample_player.logger import logger  # noqa
+from sample_player.struct_logger import logger  # noqa
 from sample_player.model_output import get_model_output
 from sample_player.utils_teamACN.flop_strategy import get_card_action
 from sample_player.utils_teamACN.pre_flop_strategy import get_pre_flop_action
+from sample_player.utils_teamACN.preprocess import pre_process_data
 
 
 class AiPlayer(BasePokerPlayer):
     def declare_action(self, valid_actions, hole_card, round_state):
         # valid_actions format => [fold_action_info, call_action_info, raise_action_info]
-        logger.info(f"Round: {round_state['round_count']}")
-        logger.info(f"valid_actions teamACN: {valid_actions}")
-        logger.info(f"hole_card teamACN: {hole_card}")
-        logger.info(f"round_state teamACN: {round_state}")
+        # logger.info(f"Round: {round_state['round_count']}")
+        # logger.info(f"valid_actions teamACN: {valid_actions}")
+        # logger.info(f"hole_card teamACN: {hole_card}")
+        # logger.info(f"round_state teamACN: {round_state}")
         action = ""
         amount = 0
         action_info = valid_actions[2]
@@ -24,6 +25,8 @@ class AiPlayer(BasePokerPlayer):
             best_hand, highest_hand = get_model_output(
                 hole_card + round_state["community_card"],
                 "teamACN",
+                pre_process_data,
+                model_file_path="content/model/saved_model_teamACN.pkl",
             )
             action, amount = get_card_action(
                 best_hand,
@@ -41,7 +44,17 @@ class AiPlayer(BasePokerPlayer):
         if action == "fold":
             action_info = valid_actions[0]
             amount = action_info["amount"]
-        logger.info(f"action played teamACN: {action}, {amount}")
+        # logger.info(f"action played teamACN: {action}, {amount}")
+        logger.info(
+            "round_update",
+            Round=f"{round_state['round_count']}",
+            team="teamACN",
+            valid_actions=valid_actions,
+            hole_card=hole_card,
+            round_state=round_state,
+            action_info=action,
+            amount_played=amount,
+        )
         return action, amount  # action returned here is sent to the poker engine
 
     def receive_game_start_message(self, game_info):

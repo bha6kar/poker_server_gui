@@ -1,0 +1,1052 @@
+2024-01-09 10:13:16,950 - INFO - Round: 1
+2024-01-09 10:13:16,950 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 10000}}]
+2024-01-09 10:13:16,950 - INFO - hole_card teamACN2: ['C5', 'DK']
+2024-01-09 10:13:16,950 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 9980, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9990, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:13:16,951 - INFO - 5K
+2024-01-09 10:13:16,951 - INFO - Estimated Probability of Winning teamACN2['C5', 'DK']: 0.6
+2024-01-09 10:13:16,951 - INFO - action played teamACN2: call, 20
+2024-01-09 10:13:18,965 - INFO - Round: 1
+2024-01-09 10:13:18,966 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 10000}}]
+2024-01-09 10:13:18,966 - INFO - hole_card teamACN: ['S9', 'H7']
+2024-01-09 10:13:18,966 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 9980, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9980, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}]}}
+2024-01-09 10:13:18,966 - INFO - 97
+2024-01-09 10:13:18,966 - INFO - Estimated Probability of Winning teamACN ['S9', 'H7']: 0.4
+2024-01-09 10:13:18,967 - INFO - action played teamACN: call, 20
+2024-01-09 10:13:23,009 - INFO - Round: 1
+2024-01-09 10:13:23,010 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 9980}}]
+2024-01-09 10:13:23,010 - INFO - hole_card teamACN2: ['C5', 'DK']
+2024-01-09 10:13:23,010 - INFO - round_state teamACN2: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['C3', 'D8', 'D7'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 1, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 9980, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9980, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': []}}
+2024-01-09 10:13:23,011 - INFO - ['C5', 'DK', 'C3', 'D8', 'D7']
+2024-01-09 10:13:23,011 - INFO - ['C5', 'DK', 'C3', 'D8', 'D7']
+2024-01-09 10:13:23,011 - INFO - [4, 5, 3, 13, 4, 3, 3, 8, 3, 7]
+2024-01-09 10:13:31,809 - INFO - [0]
+2024-01-09 10:13:31,809 - INFO - Best hands: {0: 13}
+2024-01-09 10:13:31,809 - INFO - teamACN2 Best hand: 0
+2024-01-09 10:13:31,809 - INFO - teamACN2 Highest Rank in Hand: 13
+2024-01-09 10:13:31,809 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:13:45,847 - INFO - Round: 2
+2024-01-09 10:13:45,848 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 10020}}]
+2024-01-09 10:13:45,848 - INFO - hole_card teamACN: ['HQ', 'SA']
+2024-01-09 10:13:45,848 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 10010, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9960, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:13:45,848 - INFO - QA
+2024-01-09 10:13:45,848 - INFO - Estimated Probability of Winning teamACN ['HQ', 'SA']: 0.8
+2024-01-09 10:13:45,848 - INFO - action played teamACN: raise, 3006.0
+2024-01-09 10:13:47,852 - INFO - Round: 2
+2024-01-09 10:13:47,852 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 3006.0}, {'action': 'raise', 'amount': {'min': 5992.0, 'max': 9980}}]
+2024-01-09 10:13:47,853 - INFO - hole_card teamACN2: ['SJ', 'C2']
+2024-01-09 10:13:47,853 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 3026.0}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7014.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9960, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 3006.0, 'paid': 2996.0, 'add_amount': 2986.0, 'uuid': '0'}]}}
+2024-01-09 10:13:47,853 - INFO - J2
+2024-01-09 10:13:47,854 - INFO - Estimated Probability of Winning teamACN2['SJ', 'C2']: 0.6
+2024-01-09 10:13:47,854 - INFO - action played teamACN2: call, 3006.0
+2024-01-09 10:13:51,866 - INFO - Round: 2
+2024-01-09 10:13:51,866 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 7014.0}}]
+2024-01-09 10:13:51,867 - INFO - hole_card teamACN: ['HQ', 'SA']
+2024-01-09 10:13:51,867 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 6012.0}, 'side': []}, 'community_card': ['C4', 'D6', 'CJ'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 2, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7014.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 6974.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 3006.0, 'paid': 2996.0, 'add_amount': 2986.0, 'uuid': '0'}, {'action': 'CALL', 'amount': 3006.0, 'paid': 2986.0, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:13:51,867 - INFO - ['HQ', 'SA', 'C4', 'D6', 'CJ']
+2024-01-09 10:13:51,867 - INFO - ['HQ', 'SA', 'C4', 'D6', 'CJ']
+2024-01-09 10:13:51,868 - INFO - [1, 12, 2, 1, 4, 4, 3, 6, 4, 11]
+2024-01-09 10:13:51,901 - INFO - [0]
+2024-01-09 10:13:51,901 - INFO - Best hands: {0: 12}
+2024-01-09 10:13:51,901 - INFO - teamACN Best hand: 0
+2024-01-09 10:13:51,901 - INFO - teamACN Highest Rank in Hand: 12
+2024-01-09 10:13:51,901 - INFO - action played teamACN: fold, 0
+2024-01-09 10:14:05,920 - INFO - Round: 3
+2024-01-09 10:14:05,920 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 12986.0}}]
+2024-01-09 10:14:05,921 - INFO - hole_card teamACN2: ['S3', 'D2']
+2024-01-09 10:14:05,921 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 3, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6994.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12976.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:14:05,921 - INFO - 32
+2024-01-09 10:14:05,921 - INFO - Estimated Probability of Winning teamACN2['S3', 'D2']: 0.1
+2024-01-09 10:14:05,922 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:14:19,948 - INFO - Round: 4
+2024-01-09 10:14:19,949 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 7024.0}}]
+2024-01-09 10:14:19,949 - INFO - hole_card teamACN: ['C7', 'C4']
+2024-01-09 10:14:19,949 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 4, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7014.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12956.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:14:19,949 - INFO - 74
+2024-01-09 10:14:19,950 - INFO - Estimated Probability of Winning teamACN ['C7', 'C4']: 0.2
+2024-01-09 10:14:19,950 - INFO - action played teamACN: fold, 0
+2024-01-09 10:14:33,974 - INFO - Round: 5
+2024-01-09 10:14:33,975 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 12986.0}}]
+2024-01-09 10:14:33,975 - INFO - hole_card teamACN2: ['C6', 'H6']
+2024-01-09 10:14:33,975 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 5, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6994.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12976.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:14:33,975 - INFO - 66
+2024-01-09 10:14:33,975 - INFO - Estimated Probability of Winning teamACN2['C6', 'H6']: 0.2
+2024-01-09 10:14:33,976 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:14:48,014 - INFO - Round: 6
+2024-01-09 10:14:48,015 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 7024.0}}]
+2024-01-09 10:14:48,015 - INFO - hole_card teamACN: ['CK', 'D8']
+2024-01-09 10:14:48,015 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 6, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7014.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12956.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:14:48,015 - INFO - K8
+2024-01-09 10:14:48,015 - INFO - Estimated Probability of Winning teamACN ['CK', 'D8']: 0.6
+2024-01-09 10:14:48,015 - INFO - action played teamACN: call, 20
+2024-01-09 10:14:50,020 - INFO - Round: 6
+2024-01-09 10:14:50,021 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 12976.0}}]
+2024-01-09 10:14:50,021 - INFO - hole_card teamACN2: ['D5', 'S3']
+2024-01-09 10:14:50,021 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 6, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7004.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12956.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}]}}
+2024-01-09 10:14:50,021 - INFO - 53
+2024-01-09 10:14:50,022 - INFO - Estimated Probability of Winning teamACN2['D5', 'S3']: 0.2
+2024-01-09 10:14:50,025 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:15:04,060 - INFO - Round: 7
+2024-01-09 10:15:04,060 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 12956.0}}]
+2024-01-09 10:15:04,060 - INFO - hole_card teamACN2: ['D7', 'DT']
+2024-01-09 10:15:04,061 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 7, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7024.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12946.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:15:04,061 - INFO - 7T
+2024-01-09 10:15:04,061 - INFO - Estimated Probability of Winning teamACN2['D7', 'DT']: 0.2
+2024-01-09 10:15:04,061 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:15:18,077 - INFO - Round: 8
+2024-01-09 10:15:18,077 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 7054.0}}]
+2024-01-09 10:15:18,077 - INFO - hole_card teamACN: ['H3', 'C2']
+2024-01-09 10:15:18,077 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 8, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7044.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12926.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:15:18,078 - INFO - 32
+2024-01-09 10:15:18,078 - INFO - Estimated Probability of Winning teamACN ['H3', 'C2']: 0.1
+2024-01-09 10:15:18,078 - INFO - action played teamACN: fold, 0
+2024-01-09 10:15:32,115 - INFO - Round: 9
+2024-01-09 10:15:32,115 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 12956.0}}]
+2024-01-09 10:15:32,115 - INFO - hole_card teamACN2: ['C6', 'ST']
+2024-01-09 10:15:32,115 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 9, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7024.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12946.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:15:32,115 - INFO - 6T
+2024-01-09 10:15:32,116 - INFO - Estimated Probability of Winning teamACN2['C6', 'ST']: 0.2
+2024-01-09 10:15:32,116 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:15:46,136 - INFO - Round: 10
+2024-01-09 10:15:46,137 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 7054.0}}]
+2024-01-09 10:15:46,137 - INFO - hole_card teamACN: ['ST', 'HA']
+2024-01-09 10:15:46,137 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 10, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 7044.0, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12926.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:15:46,137 - INFO - TA
+2024-01-09 10:15:46,137 - INFO - Estimated Probability of Winning teamACN ['ST', 'HA']: 0.8
+2024-01-09 10:15:46,137 - INFO - action played teamACN: raise, 2116.2
+2024-01-09 10:15:48,142 - INFO - Round: 10
+2024-01-09 10:15:48,142 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 2116.2}, {'action': 'raise', 'amount': {'min': 4212.4, 'max': 12946.0}}]
+2024-01-09 10:15:48,143 - INFO - hole_card teamACN2: ['C3', 'C8']
+2024-01-09 10:15:48,143 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 2136.2}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 10, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12926.0, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2116.2, 'paid': 2106.2, 'add_amount': 2096.2, 'uuid': '0'}]}}
+2024-01-09 10:15:48,143 - INFO - 38
+2024-01-09 10:15:48,143 - INFO - Estimated Probability of Winning teamACN2['C3', 'C8']: 0.4
+2024-01-09 10:15:48,143 - INFO - action played teamACN2: call, 2116.2
+2024-01-09 10:15:52,152 - INFO - Round: 10
+2024-01-09 10:15:52,153 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 4937.8}}]
+2024-01-09 10:15:52,153 - INFO - hole_card teamACN: ['ST', 'HA']
+2024-01-09 10:15:52,153 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 4232.4}, 'side': []}, 'community_card': ['HK', 'S9', 'HJ'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 10, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 10829.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2116.2, 'paid': 2106.2, 'add_amount': 2096.2, 'uuid': '0'}, {'action': 'CALL', 'amount': 2116.2, 'paid': 2096.2, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:15:52,154 - INFO - ['ST', 'HA', 'HK', 'S9', 'HJ']
+2024-01-09 10:15:52,154 - INFO - ['ST', 'HA', 'HK', 'S9', 'HJ']
+2024-01-09 10:15:52,154 - INFO - [2, 10, 1, 1, 1, 13, 2, 9, 1, 11]
+2024-01-09 10:15:52,196 - INFO - [0]
+2024-01-09 10:15:52,196 - INFO - Best hands: {0: 13}
+2024-01-09 10:15:52,196 - INFO - teamACN Best hand: 0
+2024-01-09 10:15:52,196 - INFO - teamACN Highest Rank in Hand: 13
+2024-01-09 10:15:52,196 - INFO - action played teamACN: fold, 0
+2024-01-09 10:16:06,209 - INFO - Round: 11
+2024-01-09 10:16:06,210 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15061.8}}]
+2024-01-09 10:16:06,210 - INFO - hole_card teamACN2: ['HJ', 'HK']
+2024-01-09 10:16:06,210 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 11, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15051.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:16:06,210 - INFO - JK
+2024-01-09 10:16:06,210 - INFO - Estimated Probability of Winning teamACN2['HJ', 'HK']: 0.6
+2024-01-09 10:16:06,210 - INFO - action played teamACN2: call, 20
+2024-01-09 10:16:08,216 - INFO - Round: 11
+2024-01-09 10:16:08,216 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4937.8}}]
+2024-01-09 10:16:08,216 - INFO - hole_card teamACN: ['C5', 'SJ']
+2024-01-09 10:16:08,216 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 11, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15041.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}]}}
+2024-01-09 10:16:08,217 - INFO - 5J
+2024-01-09 10:16:08,217 - INFO - Estimated Probability of Winning teamACN ['C5', 'SJ']: 0.6
+2024-01-09 10:16:08,217 - INFO - action played teamACN: call, 20
+2024-01-09 10:16:12,231 - INFO - Round: 11
+2024-01-09 10:16:12,231 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 15041.8}}]
+2024-01-09 10:16:12,231 - INFO - hole_card teamACN2: ['HJ', 'HK']
+2024-01-09 10:16:12,232 - INFO - round_state teamACN2: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H3', 'C2', 'D8'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 11, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15041.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': []}}
+2024-01-09 10:16:12,232 - INFO - ['HJ', 'HK', 'H3', 'C2', 'D8']
+2024-01-09 10:16:12,232 - INFO - ['HJ', 'HK', 'H3', 'C2', 'D8']
+2024-01-09 10:16:12,232 - INFO - [1, 11, 1, 13, 1, 3, 4, 2, 3, 8]
+2024-01-09 10:16:12,254 - INFO - [0]
+2024-01-09 10:16:12,254 - INFO - Best hands: {0: 13}
+2024-01-09 10:16:12,254 - INFO - teamACN2 Best hand: 0
+2024-01-09 10:16:12,255 - INFO - teamACN2 Highest Rank in Hand: 13
+2024-01-09 10:16:12,255 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:16:26,271 - INFO - Round: 12
+2024-01-09 10:16:26,271 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4957.8}}]
+2024-01-09 10:16:26,271 - INFO - hole_card teamACN: ['SK', 'HQ']
+2024-01-09 10:16:26,271 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 12, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4947.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:16:26,271 - INFO - KQ
+2024-01-09 10:16:26,271 - INFO - Estimated Probability of Winning teamACN ['SK', 'HQ']: 0.6
+2024-01-09 10:16:26,271 - INFO - action played teamACN: call, 20
+2024-01-09 10:16:28,275 - INFO - Round: 12
+2024-01-09 10:16:28,275 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15041.8}}]
+2024-01-09 10:16:28,275 - INFO - hole_card teamACN2: ['H2', 'S8']
+2024-01-09 10:16:28,275 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 12, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}]}}
+2024-01-09 10:16:28,275 - INFO - 28
+2024-01-09 10:16:28,275 - INFO - Estimated Probability of Winning teamACN2['H2', 'S8']: 0.4
+2024-01-09 10:16:28,275 - INFO - action played teamACN2: call, 20
+2024-01-09 10:16:32,286 - INFO - Round: 12
+2024-01-09 10:16:32,287 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 4937.8}}]
+2024-01-09 10:16:32,287 - INFO - hole_card teamACN: ['SK', 'HQ']
+2024-01-09 10:16:32,287 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['C8', 'D7', 'C4'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 12, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:16:32,287 - INFO - ['SK', 'HQ', 'C8', 'D7', 'C4']
+2024-01-09 10:16:32,287 - INFO - ['SK', 'HQ', 'C8', 'D7', 'C4']
+2024-01-09 10:16:32,288 - INFO - [2, 13, 1, 12, 4, 8, 3, 7, 4, 4]
+2024-01-09 10:16:32,313 - INFO - [0]
+2024-01-09 10:16:32,313 - INFO - Best hands: {0: 13}
+2024-01-09 10:16:32,313 - INFO - teamACN Best hand: 0
+2024-01-09 10:16:32,313 - INFO - teamACN Highest Rank in Hand: 13
+2024-01-09 10:16:32,313 - INFO - action played teamACN: fold, 0
+2024-01-09 10:16:46,329 - INFO - Round: 13
+2024-01-09 10:16:46,329 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15061.8}}]
+2024-01-09 10:16:46,329 - INFO - hole_card teamACN2: ['S8', 'H9']
+2024-01-09 10:16:46,330 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 13, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15051.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:16:46,330 - INFO - 89
+2024-01-09 10:16:46,330 - INFO - Estimated Probability of Winning teamACN2['S8', 'H9']: 0.4
+2024-01-09 10:16:46,330 - INFO - action played teamACN2: call, 20
+2024-01-09 10:16:48,336 - INFO - Round: 13
+2024-01-09 10:16:48,336 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4937.8}}]
+2024-01-09 10:16:48,336 - INFO - hole_card teamACN: ['S9', 'DJ']
+2024-01-09 10:16:48,336 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 13, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15041.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}]}}
+2024-01-09 10:16:48,336 - INFO - 9J
+2024-01-09 10:16:48,336 - INFO - Estimated Probability of Winning teamACN ['S9', 'DJ']: 0.6
+2024-01-09 10:16:48,336 - INFO - action played teamACN: call, 20
+2024-01-09 10:16:52,346 - INFO - Round: 13
+2024-01-09 10:16:52,346 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 15041.8}}]
+2024-01-09 10:16:52,347 - INFO - hole_card teamACN2: ['S8', 'H9']
+2024-01-09 10:16:52,347 - INFO - round_state teamACN2: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['S3', 'HJ', 'H7'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 13, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15041.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': []}}
+2024-01-09 10:16:52,348 - INFO - ['S8', 'H9', 'S3', 'HJ', 'H7']
+2024-01-09 10:16:52,348 - INFO - ['S8', 'H9', 'S3', 'HJ', 'H7']
+2024-01-09 10:16:52,349 - INFO - [2, 8, 1, 9, 2, 3, 1, 11, 1, 7]
+2024-01-09 10:16:52,388 - INFO - [0]
+2024-01-09 10:16:52,388 - INFO - Best hands: {0: 11}
+2024-01-09 10:16:52,388 - INFO - teamACN2 Best hand: 0
+2024-01-09 10:16:52,388 - INFO - teamACN2 Highest Rank in Hand: 11
+2024-01-09 10:16:52,388 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:17:06,406 - INFO - Round: 14
+2024-01-09 10:17:06,406 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4957.8}}]
+2024-01-09 10:17:06,406 - INFO - hole_card teamACN: ['HJ', 'DQ']
+2024-01-09 10:17:06,406 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 14, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4947.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:17:06,406 - INFO - JQ
+2024-01-09 10:17:06,407 - INFO - Estimated Probability of Winning teamACN ['HJ', 'DQ']: 0.6
+2024-01-09 10:17:06,407 - INFO - action played teamACN: call, 20
+2024-01-09 10:17:08,410 - INFO - Round: 14
+2024-01-09 10:17:08,410 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15041.8}}]
+2024-01-09 10:17:08,410 - INFO - hole_card teamACN2: ['D9', 'D6']
+2024-01-09 10:17:08,411 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 14, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}]}}
+2024-01-09 10:17:08,411 - INFO - 96
+2024-01-09 10:17:08,411 - INFO - Estimated Probability of Winning teamACN2['D9', 'D6']: 0.4
+2024-01-09 10:17:08,412 - INFO - action played teamACN2: call, 20
+2024-01-09 10:17:12,423 - INFO - Round: 14
+2024-01-09 10:17:12,424 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 4937.8}}]
+2024-01-09 10:17:12,424 - INFO - hole_card teamACN: ['HJ', 'DQ']
+2024-01-09 10:17:12,424 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['H4', 'H3', 'DT'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 14, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:17:12,424 - INFO - ['HJ', 'DQ', 'H4', 'H3', 'DT']
+2024-01-09 10:17:12,424 - INFO - ['HJ', 'DQ', 'H4', 'H3', 'DT']
+2024-01-09 10:17:12,425 - INFO - [1, 11, 3, 12, 1, 4, 1, 3, 3, 10]
+2024-01-09 10:17:12,440 - INFO - [0]
+2024-01-09 10:17:12,441 - INFO - Best hands: {0: 12}
+2024-01-09 10:17:12,441 - INFO - teamACN Best hand: 0
+2024-01-09 10:17:12,441 - INFO - teamACN Highest Rank in Hand: 12
+2024-01-09 10:17:12,441 - INFO - action played teamACN: fold, 0
+2024-01-09 10:17:26,452 - INFO - Round: 15
+2024-01-09 10:17:26,452 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15061.8}}]
+2024-01-09 10:17:26,452 - INFO - hole_card teamACN2: ['H5', 'H6']
+2024-01-09 10:17:26,452 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 15, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4917.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15051.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:17:26,452 - INFO - 56
+2024-01-09 10:17:26,452 - INFO - Estimated Probability of Winning teamACN2['H5', 'H6']: 0.2
+2024-01-09 10:17:26,453 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:17:40,466 - INFO - Round: 16
+2024-01-09 10:17:40,467 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4947.8}}]
+2024-01-09 10:17:40,467 - INFO - hole_card teamACN: ['SJ', 'C5']
+2024-01-09 10:17:40,468 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 16, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4937.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15031.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:17:40,468 - INFO - J5
+2024-01-09 10:17:40,468 - INFO - Estimated Probability of Winning teamACN ['SJ', 'C5']: 0.6
+2024-01-09 10:17:40,468 - INFO - action played teamACN: call, 20
+2024-01-09 10:17:42,473 - INFO - Round: 16
+2024-01-09 10:17:42,474 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15051.8}}]
+2024-01-09 10:17:42,475 - INFO - hole_card teamACN2: ['S6', 'H6']
+2024-01-09 10:17:42,475 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 16, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4927.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15031.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}]}}
+2024-01-09 10:17:42,475 - INFO - 66
+2024-01-09 10:17:42,475 - INFO - Estimated Probability of Winning teamACN2['S6', 'H6']: 0.2
+2024-01-09 10:17:42,476 - INFO - action played teamACN2: fold, 0
+2024-01-09 10:17:56,491 - INFO - Round: 17
+2024-01-09 10:17:56,491 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 15031.8}}]
+2024-01-09 10:17:56,491 - INFO - hole_card teamACN2: ['D9', 'D4']
+2024-01-09 10:17:56,492 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4947.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15021.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:17:56,492 - INFO - 94
+2024-01-09 10:17:56,492 - INFO - Estimated Probability of Winning teamACN2['D9', 'D4']: 0.4
+2024-01-09 10:17:56,492 - INFO - action played teamACN2: call, 20
+2024-01-09 10:17:58,498 - INFO - Round: 17
+2024-01-09 10:17:58,499 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 4967.8}}]
+2024-01-09 10:17:58,499 - INFO - hole_card teamACN: ['D3', 'HA']
+2024-01-09 10:17:58,499 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 4947.8, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15011.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}]}}
+2024-01-09 10:17:58,499 - INFO - 3A
+2024-01-09 10:17:58,499 - INFO - Estimated Probability of Winning teamACN ['D3', 'HA']: 0.8
+2024-01-09 10:17:58,499 - INFO - action played teamACN: raise, 1490.34
+2024-01-09 10:18:00,505 - INFO - Round: 17
+2024-01-09 10:18:00,505 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 1490.34}, {'action': 'raise', 'amount': {'min': 2960.68, 'max': 15031.8}}]
+2024-01-09 10:18:00,505 - INFO - hole_card teamACN2: ['D9', 'D4']
+2024-01-09 10:18:00,505 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 1510.34}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 15011.8, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}]}}
+2024-01-09 10:18:00,506 - INFO - 94
+2024-01-09 10:18:00,506 - INFO - Estimated Probability of Winning teamACN2['D9', 'D4']: 0.4
+2024-01-09 10:18:00,506 - INFO - action played teamACN2: call, 1490.34
+2024-01-09 10:18:04,518 - INFO - Round: 17
+2024-01-09 10:18:04,519 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:18:04,520 - INFO - hole_card teamACN2: ['D9', 'D4']
+2024-01-09 10:18:04,521 - INFO - round_state teamACN2: {'street': 'flop', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:18:04,522 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA']
+2024-01-09 10:18:04,522 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA']
+2024-01-09 10:18:04,522 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:04,550 - INFO - [1]
+2024-01-09 10:18:04,550 - INFO - Best hands: {1: 4}
+2024-01-09 10:18:04,550 - INFO - teamACN2 Best hand: 1
+2024-01-09 10:18:04,550 - INFO - teamACN2 Highest Rank in Hand: 4
+2024-01-09 10:18:04,550 - INFO - action played teamACN2: call, 0
+2024-01-09 10:18:06,556 - INFO - Round: 17
+2024-01-09 10:18:06,556 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 3477.46}}]
+2024-01-09 10:18:06,556 - INFO - hole_card teamACN: ['D3', 'HA']
+2024-01-09 10:18:06,557 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}]}}
+2024-01-09 10:18:06,557 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA']
+2024-01-09 10:18:06,557 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA']
+2024-01-09 10:18:06,557 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:06,580 - INFO - [1]
+2024-01-09 10:18:06,580 - INFO - Best hands: {1: 1}
+2024-01-09 10:18:06,580 - INFO - teamACN Best hand: 1
+2024-01-09 10:18:06,580 - INFO - teamACN Highest Rank in Hand: 1
+2024-01-09 10:18:06,580 - INFO - action played teamACN: call, 0
+2024-01-09 10:18:10,590 - INFO - Round: 17
+2024-01-09 10:18:10,590 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:18:10,590 - INFO - hole_card teamACN2: ['D9', 'D4']
+2024-01-09 10:18:10,591 - INFO - round_state teamACN2: {'street': 'turn', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA', 'D5'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': []}}
+2024-01-09 10:18:10,591 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:10,591 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA']
+2024-01-09 10:18:10,591 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:10,617 - INFO - [1]
+2024-01-09 10:18:10,617 - INFO - ['D9', 'D4', 'C4', 'H2', 'D5']
+2024-01-09 10:18:10,617 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 3, 5]
+2024-01-09 10:18:10,631 - INFO - [1]
+2024-01-09 10:18:10,631 - INFO - ['D9', 'D4', 'C4', 'DA', 'D5']
+2024-01-09 10:18:10,631 - INFO - [3, 9, 3, 4, 4, 4, 3, 1, 3, 5]
+2024-01-09 10:18:10,645 - INFO - [1]
+2024-01-09 10:18:10,645 - INFO - ['D9', 'D4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:10,646 - INFO - [3, 9, 3, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:10,658 - INFO - [0]
+2024-01-09 10:18:10,658 - INFO - ['D9', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:10,658 - INFO - [3, 9, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:10,675 - INFO - [0]
+2024-01-09 10:18:10,675 - INFO - ['D4', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:10,675 - INFO - [3, 4, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:10,689 - INFO - [1]
+2024-01-09 10:18:10,689 - INFO - Best hands: {1: 4, 0: 9}
+2024-01-09 10:18:10,689 - INFO - teamACN2 Best hand: 1
+2024-01-09 10:18:10,689 - INFO - teamACN2 Highest Rank in Hand: 4
+2024-01-09 10:18:10,689 - INFO - action played teamACN2: call, 0
+2024-01-09 10:18:12,692 - INFO - Round: 17
+2024-01-09 10:18:12,692 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 3477.46}}]
+2024-01-09 10:18:12,692 - INFO - hole_card teamACN: ['D3', 'HA']
+2024-01-09 10:18:12,692 - INFO - round_state teamACN: {'street': 'turn', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA', 'D5'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}]}}
+2024-01-09 10:18:12,692 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:12,692 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA']
+2024-01-09 10:18:12,692 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:12,706 - INFO - [1]
+2024-01-09 10:18:12,706 - INFO - ['D3', 'HA', 'C4', 'H2', 'D5']
+2024-01-09 10:18:12,706 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 3, 5]
+2024-01-09 10:18:12,718 - INFO - [1]
+2024-01-09 10:18:12,718 - INFO - ['D3', 'HA', 'C4', 'DA', 'D5']
+2024-01-09 10:18:12,718 - INFO - [3, 3, 1, 1, 4, 4, 3, 1, 3, 5]
+2024-01-09 10:18:12,734 - INFO - [1]
+2024-01-09 10:18:12,735 - INFO - ['D3', 'HA', 'H2', 'DA', 'D5']
+2024-01-09 10:18:12,735 - INFO - [3, 3, 1, 1, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:12,746 - INFO - [1]
+2024-01-09 10:18:12,747 - INFO - ['D3', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:12,747 - INFO - [3, 3, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:12,760 - INFO - [1]
+2024-01-09 10:18:12,760 - INFO - ['HA', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:12,760 - INFO - [1, 1, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:12,773 - INFO - [1]
+2024-01-09 10:18:12,773 - INFO - Best hands: {1: 5}
+2024-01-09 10:18:12,773 - INFO - teamACN Best hand: 1
+2024-01-09 10:18:12,773 - INFO - teamACN Highest Rank in Hand: 5
+2024-01-09 10:18:12,773 - INFO - action played teamACN: call, 0
+2024-01-09 10:18:16,786 - INFO - Round: 17
+2024-01-09 10:18:16,786 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:18:16,786 - INFO - hole_card teamACN2: ['D9', 'D4']
+2024-01-09 10:18:16,786 - INFO - round_state teamACN2: {'street': 'river', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA', 'D5', 'SQ'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': []}}
+2024-01-09 10:18:16,787 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:16,787 - INFO - ['D9', 'D4', 'C4', 'H2', 'DA']
+2024-01-09 10:18:16,787 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:16,811 - INFO - [1]
+2024-01-09 10:18:16,811 - INFO - ['D9', 'D4', 'C4', 'H2', 'D5']
+2024-01-09 10:18:16,812 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 3, 5]
+2024-01-09 10:18:16,824 - INFO - [1]
+2024-01-09 10:18:16,824 - INFO - ['D9', 'D4', 'C4', 'H2', 'SQ']
+2024-01-09 10:18:16,824 - INFO - [3, 9, 3, 4, 4, 4, 1, 2, 2, 12]
+2024-01-09 10:18:16,835 - INFO - [1]
+2024-01-09 10:18:16,836 - INFO - ['D9', 'D4', 'C4', 'DA', 'D5']
+2024-01-09 10:18:16,836 - INFO - [3, 9, 3, 4, 4, 4, 3, 1, 3, 5]
+2024-01-09 10:18:16,846 - INFO - [1]
+2024-01-09 10:18:16,847 - INFO - ['D9', 'D4', 'C4', 'DA', 'SQ']
+2024-01-09 10:18:16,847 - INFO - [3, 9, 3, 4, 4, 4, 3, 1, 2, 12]
+2024-01-09 10:18:16,859 - INFO - [1]
+2024-01-09 10:18:16,859 - INFO - ['D9', 'D4', 'C4', 'D5', 'SQ']
+2024-01-09 10:18:16,859 - INFO - [3, 9, 3, 4, 4, 4, 3, 5, 2, 12]
+2024-01-09 10:18:16,870 - INFO - [1]
+2024-01-09 10:18:16,870 - INFO - ['D9', 'D4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:16,870 - INFO - [3, 9, 3, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:16,882 - INFO - [0]
+2024-01-09 10:18:16,882 - INFO - ['D9', 'D4', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:16,882 - INFO - [3, 9, 3, 4, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:16,895 - INFO - [0]
+2024-01-09 10:18:16,896 - INFO - ['D9', 'D4', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:16,896 - INFO - [3, 9, 3, 4, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:16,908 - INFO - [0]
+2024-01-09 10:18:16,908 - INFO - ['D9', 'D4', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:16,908 - INFO - [3, 9, 3, 4, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:16,921 - INFO - [0]
+2024-01-09 10:18:16,921 - INFO - ['D9', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:16,921 - INFO - [3, 9, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:16,933 - INFO - [0]
+2024-01-09 10:18:16,933 - INFO - ['D9', 'C4', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:16,933 - INFO - [3, 9, 4, 4, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:16,950 - INFO - [0]
+2024-01-09 10:18:16,950 - INFO - ['D9', 'C4', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:16,950 - INFO - [3, 9, 4, 4, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:16,962 - INFO - [0]
+2024-01-09 10:18:16,962 - INFO - ['D9', 'C4', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:16,962 - INFO - [3, 9, 4, 4, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:16,973 - INFO - [0]
+2024-01-09 10:18:16,974 - INFO - ['D9', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:16,974 - INFO - [3, 9, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:16,985 - INFO - [0]
+2024-01-09 10:18:16,985 - INFO - ['D4', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:16,985 - INFO - [3, 4, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:16,997 - INFO - [1]
+2024-01-09 10:18:16,997 - INFO - ['D4', 'C4', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:16,997 - INFO - [3, 4, 4, 4, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:17,009 - INFO - [1]
+2024-01-09 10:18:17,009 - INFO - ['D4', 'C4', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:17,009 - INFO - [3, 4, 4, 4, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:17,021 - INFO - [1]
+2024-01-09 10:18:17,022 - INFO - ['D4', 'C4', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:17,022 - INFO - [3, 4, 4, 4, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:17,034 - INFO - [1]
+2024-01-09 10:18:17,034 - INFO - ['D4', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:17,034 - INFO - [3, 4, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:17,046 - INFO - [0]
+2024-01-09 10:18:17,046 - INFO - ['C4', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:17,046 - INFO - [4, 4, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:17,058 - INFO - [0]
+2024-01-09 10:18:17,058 - INFO - Best hands: {1: 4, 0: 12}
+2024-01-09 10:18:17,058 - INFO - teamACN2 Best hand: 1
+2024-01-09 10:18:17,058 - INFO - teamACN2 Highest Rank in Hand: 4
+2024-01-09 10:18:17,058 - INFO - action played teamACN2: call, 0
+2024-01-09 10:18:19,064 - INFO - Round: 17
+2024-01-09 10:18:19,064 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 3477.46}}]
+2024-01-09 10:18:19,064 - INFO - hole_card teamACN: ['D3', 'HA']
+2024-01-09 10:18:19,065 - INFO - round_state teamACN: {'street': 'river', 'pot': {'main': {'amount': 2980.68}, 'side': []}, 'community_card': ['C4', 'H2', 'DA', 'D5', 'SQ'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 17, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3477.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'RAISE', 'amount': 1490.34, 'paid': 1470.34, 'add_amount': 1470.34, 'uuid': '0'}, {'action': 'CALL', 'amount': 1490.34, 'paid': 1470.34, 'uuid': '1'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}]}}
+2024-01-09 10:18:19,065 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,065 - INFO - ['D3', 'HA', 'C4', 'H2', 'DA']
+2024-01-09 10:18:19,065 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 3, 1]
+2024-01-09 10:18:19,088 - INFO - [1]
+2024-01-09 10:18:19,089 - INFO - ['D3', 'HA', 'C4', 'H2', 'D5']
+2024-01-09 10:18:19,089 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 3, 5]
+2024-01-09 10:18:19,102 - INFO - [1]
+2024-01-09 10:18:19,102 - INFO - ['D3', 'HA', 'C4', 'H2', 'SQ']
+2024-01-09 10:18:19,102 - INFO - [3, 3, 1, 1, 4, 4, 1, 2, 2, 12]
+2024-01-09 10:18:19,114 - INFO - [0]
+2024-01-09 10:18:19,114 - INFO - ['D3', 'HA', 'C4', 'DA', 'D5']
+2024-01-09 10:18:19,114 - INFO - [3, 3, 1, 1, 4, 4, 3, 1, 3, 5]
+2024-01-09 10:18:19,126 - INFO - [1]
+2024-01-09 10:18:19,126 - INFO - ['D3', 'HA', 'C4', 'DA', 'SQ']
+2024-01-09 10:18:19,126 - INFO - [3, 3, 1, 1, 4, 4, 3, 1, 2, 12]
+2024-01-09 10:18:19,138 - INFO - [1]
+2024-01-09 10:18:19,138 - INFO - ['D3', 'HA', 'C4', 'D5', 'SQ']
+2024-01-09 10:18:19,138 - INFO - [3, 3, 1, 1, 4, 4, 3, 5, 2, 12]
+2024-01-09 10:18:19,150 - INFO - [0]
+2024-01-09 10:18:19,151 - INFO - ['D3', 'HA', 'H2', 'DA', 'D5']
+2024-01-09 10:18:19,151 - INFO - [3, 3, 1, 1, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:19,163 - INFO - [1]
+2024-01-09 10:18:19,163 - INFO - ['D3', 'HA', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:19,163 - INFO - [3, 3, 1, 1, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:19,175 - INFO - [1]
+2024-01-09 10:18:19,176 - INFO - ['D3', 'HA', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:19,176 - INFO - [3, 3, 1, 1, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:19,187 - INFO - [0]
+2024-01-09 10:18:19,188 - INFO - ['D3', 'HA', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,188 - INFO - [3, 3, 1, 1, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,200 - INFO - [1]
+2024-01-09 10:18:19,200 - INFO - ['D3', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:19,200 - INFO - [3, 3, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:19,211 - INFO - [1]
+2024-01-09 10:18:19,211 - INFO - ['D3', 'C4', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:19,211 - INFO - [3, 3, 4, 4, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:19,224 - INFO - [0]
+2024-01-09 10:18:19,224 - INFO - ['D3', 'C4', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:19,224 - INFO - [3, 3, 4, 4, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:19,235 - INFO - [0]
+2024-01-09 10:18:19,236 - INFO - ['D3', 'C4', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,236 - INFO - [3, 3, 4, 4, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,247 - INFO - [0]
+2024-01-09 10:18:19,248 - INFO - ['D3', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,248 - INFO - [3, 3, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,260 - INFO - [0]
+2024-01-09 10:18:19,260 - INFO - ['HA', 'C4', 'H2', 'DA', 'D5']
+2024-01-09 10:18:19,260 - INFO - [1, 1, 4, 4, 1, 2, 3, 1, 3, 5]
+2024-01-09 10:18:19,273 - INFO - [1]
+2024-01-09 10:18:19,273 - INFO - ['HA', 'C4', 'H2', 'DA', 'SQ']
+2024-01-09 10:18:19,273 - INFO - [1, 1, 4, 4, 1, 2, 3, 1, 2, 12]
+2024-01-09 10:18:19,284 - INFO - [1]
+2024-01-09 10:18:19,285 - INFO - ['HA', 'C4', 'H2', 'D5', 'SQ']
+2024-01-09 10:18:19,285 - INFO - [1, 1, 4, 4, 1, 2, 3, 5, 2, 12]
+2024-01-09 10:18:19,297 - INFO - [0]
+2024-01-09 10:18:19,297 - INFO - ['HA', 'C4', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,297 - INFO - [1, 1, 4, 4, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,310 - INFO - [1]
+2024-01-09 10:18:19,310 - INFO - ['HA', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,310 - INFO - [1, 1, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,321 - INFO - [1]
+2024-01-09 10:18:19,322 - INFO - ['C4', 'H2', 'DA', 'D5', 'SQ']
+2024-01-09 10:18:19,322 - INFO - [4, 4, 1, 2, 3, 1, 3, 5, 2, 12]
+2024-01-09 10:18:19,334 - INFO - [0]
+2024-01-09 10:18:19,334 - INFO - Best hands: {1: 5, 0: 12}
+2024-01-09 10:18:19,334 - INFO - teamACN Best hand: 1
+2024-01-09 10:18:19,334 - INFO - teamACN Highest Rank in Hand: 5
+2024-01-09 10:18:19,334 - INFO - action played teamACN: call, 0
+2024-01-09 10:18:33,345 - INFO - Round: 18
+2024-01-09 10:18:33,346 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 6457.46}}]
+2024-01-09 10:18:33,346 - INFO - hole_card teamACN: ['C7', 'DK']
+2024-01-09 10:18:33,346 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 18, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6447.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13521.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}]}}
+2024-01-09 10:18:33,346 - INFO - 7K
+2024-01-09 10:18:33,347 - INFO - Estimated Probability of Winning teamACN ['C7', 'DK']: 0.6
+2024-01-09 10:18:33,347 - INFO - action played teamACN: call, 20
+2024-01-09 10:18:35,353 - INFO - Round: 18
+2024-01-09 10:18:35,353 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 13541.46}}]
+2024-01-09 10:18:35,354 - INFO - hole_card teamACN2: ['S9', 'D4']
+2024-01-09 10:18:35,354 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 1, 'next_player': 1, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 18, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6437.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13521.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}]}}
+2024-01-09 10:18:35,354 - INFO - 94
+2024-01-09 10:18:35,354 - INFO - Estimated Probability of Winning teamACN2['S9', 'D4']: 0.4
+2024-01-09 10:18:35,354 - INFO - action played teamACN2: call, 20
+2024-01-09 10:18:39,369 - INFO - Round: 18
+2024-01-09 10:18:39,370 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 6437.46}}]
+2024-01-09 10:18:39,370 - INFO - hole_card teamACN: ['C7', 'DK']
+2024-01-09 10:18:39,370 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['C6', 'CA', 'C5'], 'dealer_btn': 1, 'next_player': 0, 'small_blind_pos': 0, 'big_blind_pos': 1, 'round_count': 18, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6437.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13521.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '0'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '1'}], 'flop': []}}
+2024-01-09 10:18:39,370 - INFO - ['C7', 'DK', 'C6', 'CA', 'C5']
+2024-01-09 10:18:39,371 - INFO - ['C7', 'DK', 'C6', 'CA', 'C5']
+2024-01-09 10:18:39,371 - INFO - [4, 7, 3, 13, 4, 6, 4, 1, 4, 5]
+2024-01-09 10:18:39,395 - INFO - [0]
+2024-01-09 10:18:39,395 - INFO - Best hands: {0: 13}
+2024-01-09 10:18:39,395 - INFO - teamACN Best hand: 0
+2024-01-09 10:18:39,395 - INFO - teamACN Highest Rank in Hand: 13
+2024-01-09 10:18:39,395 - INFO - action played teamACN: fold, 0
+2024-01-09 10:18:53,414 - INFO - Round: 19
+2024-01-09 10:18:53,414 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 13561.46}}]
+2024-01-09 10:18:53,414 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:18:53,414 - INFO - round_state teamACN2: {'street': 'preflop', 'pot': {'main': {'amount': 30}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13551.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}]}}
+2024-01-09 10:18:53,415 - INFO - 39
+2024-01-09 10:18:53,415 - INFO - Estimated Probability of Winning teamACN2['S3', 'D9']: 0.4
+2024-01-09 10:18:53,415 - INFO - action played teamACN2: call, 20
+2024-01-09 10:18:55,419 - INFO - Round: 19
+2024-01-09 10:18:55,419 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 20}, {'action': 'raise', 'amount': {'min': 30, 'max': 6437.46}}]
+2024-01-09 10:18:55,419 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:18:55,419 - INFO - round_state teamACN: {'street': 'preflop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': [], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}]}}
+2024-01-09 10:18:55,420 - INFO - 5J
+2024-01-09 10:18:55,420 - INFO - Estimated Probability of Winning teamACN ['H5', 'CJ']: 0.6
+2024-01-09 10:18:55,420 - INFO - action played teamACN: call, 20
+2024-01-09 10:18:59,432 - INFO - Round: 19
+2024-01-09 10:18:59,432 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:18:59,432 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:18:59,432 - INFO - round_state teamACN2: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': []}}
+2024-01-09 10:18:59,433 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:18:59,433 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:18:59,433 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:18:59,459 - INFO - [1]
+2024-01-09 10:18:59,459 - INFO - Best hands: {1: 3}
+2024-01-09 10:18:59,459 - INFO - teamACN2 Best hand: 1
+2024-01-09 10:18:59,459 - INFO - teamACN2 Highest Rank in Hand: 3
+2024-01-09 10:18:59,459 - INFO - action played teamACN2: call, 0
+2024-01-09 10:19:01,465 - INFO - Round: 19
+2024-01-09 10:19:01,465 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 6417.46}}]
+2024-01-09 10:19:01,465 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:19:01,466 - INFO - round_state teamACN: {'street': 'flop', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}]}}
+2024-01-09 10:19:01,466 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:01,467 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:01,468 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:01,493 - INFO - [1]
+2024-01-09 10:19:01,493 - INFO - Best hands: {1: 11}
+2024-01-09 10:19:01,494 - INFO - teamACN Best hand: 1
+2024-01-09 10:19:01,494 - INFO - teamACN Highest Rank in Hand: 11
+2024-01-09 10:19:01,494 - INFO - action played teamACN: call, 0
+2024-01-09 10:19:05,509 - INFO - Round: 19
+2024-01-09 10:19:05,509 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:19:05,509 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:19:05,510 - INFO - round_state teamACN2: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': []}}
+2024-01-09 10:19:05,510 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:05,510 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:05,510 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:05,522 - INFO - [1]
+2024-01-09 10:19:05,522 - INFO - ['S3', 'D9', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:05,522 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:05,535 - INFO - [0]
+2024-01-09 10:19:05,535 - INFO - ['S3', 'D9', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:05,535 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:05,547 - INFO - [1]
+2024-01-09 10:19:05,547 - INFO - ['S3', 'D9', 'H6', 'C3', 'SK']
+2024-01-09 10:19:05,547 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:05,558 - INFO - [1]
+2024-01-09 10:19:05,559 - INFO - ['S3', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:05,559 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:05,570 - INFO - [1]
+2024-01-09 10:19:05,570 - INFO - ['D9', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:05,570 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:05,582 - INFO - [0]
+2024-01-09 10:19:05,582 - INFO - Best hands: {1: 3, 0: 13}
+2024-01-09 10:19:05,582 - INFO - teamACN2 Best hand: 1
+2024-01-09 10:19:05,582 - INFO - teamACN2 Highest Rank in Hand: 3
+2024-01-09 10:19:05,582 - INFO - action played teamACN2: call, 0
+2024-01-09 10:19:07,587 - INFO - Round: 19
+2024-01-09 10:19:07,587 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 6417.46}}]
+2024-01-09 10:19:07,587 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:19:07,588 - INFO - round_state teamACN: {'street': 'turn', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}]}}
+2024-01-09 10:19:07,588 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:07,588 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:07,588 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:07,600 - INFO - [1]
+2024-01-09 10:19:07,600 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:07,600 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:07,612 - INFO - [1]
+2024-01-09 10:19:07,612 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:07,612 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:07,624 - INFO - [1]
+2024-01-09 10:19:07,624 - INFO - ['H5', 'CJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:07,624 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:07,636 - INFO - [0]
+2024-01-09 10:19:07,637 - INFO - ['H5', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:07,637 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:07,648 - INFO - [0]
+2024-01-09 10:19:07,648 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:07,648 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:07,660 - INFO - [1]
+2024-01-09 10:19:07,660 - INFO - Best hands: {1: 11, 0: 13}
+2024-01-09 10:19:07,660 - INFO - teamACN Best hand: 1
+2024-01-09 10:19:07,661 - INFO - teamACN Highest Rank in Hand: 11
+2024-01-09 10:19:07,661 - INFO - action played teamACN: call, 0
+2024-01-09 10:19:11,671 - INFO - Round: 19
+2024-01-09 10:19:11,672 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 0}, {'action': 'raise', 'amount': {'min': 20, 'max': 13541.46}}]
+2024-01-09 10:19:11,672 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:19:11,672 - INFO - round_state teamACN2: {'street': 'river', 'pot': {'main': {'amount': 40}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 13541.46, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': []}}
+2024-01-09 10:19:11,672 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,672 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:11,672 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:11,687 - INFO - [1]
+2024-01-09 10:19:11,687 - INFO - ['S3', 'D9', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:11,687 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:11,700 - INFO - [0]
+2024-01-09 10:19:11,700 - INFO - ['S3', 'D9', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:11,700 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:11,712 - INFO - [1]
+2024-01-09 10:19:11,712 - INFO - ['S3', 'D9', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:11,712 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:11,724 - INFO - [1]
+2024-01-09 10:19:11,724 - INFO - ['S3', 'D9', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:11,725 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:11,736 - INFO - [3]
+2024-01-09 10:19:11,736 - INFO - ['S3', 'D9', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:11,736 - INFO - [2, 3, 3, 9, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:11,748 - INFO - [1]
+2024-01-09 10:19:11,748 - INFO - ['S3', 'D9', 'H6', 'C3', 'SK']
+2024-01-09 10:19:11,748 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:11,760 - INFO - [1]
+2024-01-09 10:19:11,760 - INFO - ['S3', 'D9', 'H6', 'C3', 'H3']
+2024-01-09 10:19:11,760 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:11,772 - INFO - [3]
+2024-01-09 10:19:11,772 - INFO - ['S3', 'D9', 'H6', 'SK', 'H3']
+2024-01-09 10:19:11,772 - INFO - [2, 3, 3, 9, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:11,785 - INFO - [1]
+2024-01-09 10:19:11,785 - INFO - ['S3', 'D9', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,785 - INFO - [2, 3, 3, 9, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,797 - INFO - [3]
+2024-01-09 10:19:11,797 - INFO - ['S3', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:11,797 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:11,810 - INFO - [1]
+2024-01-09 10:19:11,810 - INFO - ['S3', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:11,810 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:11,822 - INFO - [3]
+2024-01-09 10:19:11,823 - INFO - ['S3', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:11,823 - INFO - [2, 3, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:11,834 - INFO - [1]
+2024-01-09 10:19:11,834 - INFO - ['S3', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,834 - INFO - [2, 3, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,846 - INFO - [3]
+2024-01-09 10:19:11,847 - INFO - ['S3', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,847 - INFO - [2, 3, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,859 - INFO - [3]
+2024-01-09 10:19:11,859 - INFO - ['D9', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:11,860 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:11,871 - INFO - [0]
+2024-01-09 10:19:11,871 - INFO - ['D9', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:11,871 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:11,883 - INFO - [1]
+2024-01-09 10:19:11,883 - INFO - ['D9', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:11,883 - INFO - [3, 9, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:11,895 - INFO - [0]
+2024-01-09 10:19:11,895 - INFO - ['D9', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,895 - INFO - [3, 9, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,907 - INFO - [1]
+2024-01-09 10:19:11,907 - INFO - ['D9', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,907 - INFO - [3, 9, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,918 - INFO - [1]
+2024-01-09 10:19:11,919 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:11,919 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:11,932 - INFO - [1]
+2024-01-09 10:19:11,932 - INFO - Best hands: {1: 3, 0: 13, 3: 3}
+2024-01-09 10:19:11,932 - INFO - teamACN2 Best hand: 3
+2024-01-09 10:19:11,932 - INFO - teamACN2 Highest Rank in Hand: 3
+2024-01-09 10:19:11,932 - INFO - action played teamACN2: raise, 1354.146
+2024-01-09 10:19:13,933 - INFO - Round: 19
+2024-01-09 10:19:13,934 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 1354.146}, {'action': 'raise', 'amount': {'min': 2708.292, 'max': 6417.46}}]
+2024-01-09 10:19:13,934 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:19:13,934 - INFO - round_state teamACN: {'street': 'river', 'pot': {'main': {'amount': 1394.146}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 6417.46, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12187.313999999998, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'RAISE', 'amount': 1354.146, 'paid': 1354.146, 'add_amount': 1354.146, 'uuid': '1'}]}}
+2024-01-09 10:19:13,934 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:13,934 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:13,934 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:13,945 - INFO - [1]
+2024-01-09 10:19:13,946 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:13,946 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:13,958 - INFO - [1]
+2024-01-09 10:19:13,958 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:13,958 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:13,972 - INFO - [1]
+2024-01-09 10:19:13,972 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:13,972 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:13,986 - INFO - [1]
+2024-01-09 10:19:13,986 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:13,986 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:13,999 - INFO - [2]
+2024-01-09 10:19:13,999 - INFO - ['H5', 'CJ', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:14,000 - INFO - [1, 5, 4, 11, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:14,011 - INFO - [1]
+2024-01-09 10:19:14,011 - INFO - ['H5', 'CJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:14,011 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:14,025 - INFO - [0]
+2024-01-09 10:19:14,025 - INFO - ['H5', 'CJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:14,025 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:14,036 - INFO - [1]
+2024-01-09 10:19:14,036 - INFO - ['H5', 'CJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:14,036 - INFO - [1, 5, 4, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:14,049 - INFO - [0]
+2024-01-09 10:19:14,049 - INFO - ['H5', 'CJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,049 - INFO - [1, 5, 4, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,070 - INFO - [1]
+2024-01-09 10:19:14,070 - INFO - ['H5', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:14,070 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:14,082 - INFO - [0]
+2024-01-09 10:19:14,083 - INFO - ['H5', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:14,083 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:14,094 - INFO - [1]
+2024-01-09 10:19:14,094 - INFO - ['H5', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:14,094 - INFO - [1, 5, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:14,105 - INFO - [0]
+2024-01-09 10:19:14,106 - INFO - ['H5', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,106 - INFO - [1, 5, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,119 - INFO - [1]
+2024-01-09 10:19:14,119 - INFO - ['H5', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,119 - INFO - [1, 5, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,131 - INFO - [1]
+2024-01-09 10:19:14,131 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:14,132 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:14,143 - INFO - [1]
+2024-01-09 10:19:14,143 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:14,143 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:14,155 - INFO - [2]
+2024-01-09 10:19:14,155 - INFO - ['CJ', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:14,155 - INFO - [4, 11, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:14,167 - INFO - [1]
+2024-01-09 10:19:14,167 - INFO - ['CJ', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,167 - INFO - [4, 11, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,179 - INFO - [1]
+2024-01-09 10:19:14,179 - INFO - ['CJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,179 - INFO - [4, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,192 - INFO - [1]
+2024-01-09 10:19:14,192 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:14,192 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:14,204 - INFO - [1]
+2024-01-09 10:19:14,204 - INFO - Best hands: {1: 11, 2: 11, 0: 13}
+2024-01-09 10:19:14,204 - INFO - teamACN Best hand: 2
+2024-01-09 10:19:14,204 - INFO - teamACN Highest Rank in Hand: 11
+2024-01-09 10:19:14,204 - INFO - action played teamACN: raise, 2708.292
+2024-01-09 10:19:16,210 - INFO - Round: 19
+2024-01-09 10:19:16,211 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 2708.292}, {'action': 'raise', 'amount': {'min': 4062.438, 'max': 13541.46}}]
+2024-01-09 10:19:16,211 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:19:16,211 - INFO - round_state teamACN2: {'street': 'river', 'pot': {'main': {'amount': 4102.438}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3709.168, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 12187.313999999998, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'RAISE', 'amount': 1354.146, 'paid': 1354.146, 'add_amount': 1354.146, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2708.292, 'paid': 2708.292, 'add_amount': 1354.146, 'uuid': '0'}]}}
+2024-01-09 10:19:16,212 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,212 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:16,212 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:16,243 - INFO - [1]
+2024-01-09 10:19:16,244 - INFO - ['S3', 'D9', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:16,244 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:16,257 - INFO - [0]
+2024-01-09 10:19:16,257 - INFO - ['S3', 'D9', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:16,257 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:16,270 - INFO - [1]
+2024-01-09 10:19:16,270 - INFO - ['S3', 'D9', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:16,270 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:16,282 - INFO - [1]
+2024-01-09 10:19:16,283 - INFO - ['S3', 'D9', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:16,283 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:16,294 - INFO - [3]
+2024-01-09 10:19:16,295 - INFO - ['S3', 'D9', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:16,295 - INFO - [2, 3, 3, 9, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:16,307 - INFO - [1]
+2024-01-09 10:19:16,307 - INFO - ['S3', 'D9', 'H6', 'C3', 'SK']
+2024-01-09 10:19:16,307 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:16,319 - INFO - [1]
+2024-01-09 10:19:16,319 - INFO - ['S3', 'D9', 'H6', 'C3', 'H3']
+2024-01-09 10:19:16,319 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:16,332 - INFO - [3]
+2024-01-09 10:19:16,332 - INFO - ['S3', 'D9', 'H6', 'SK', 'H3']
+2024-01-09 10:19:16,332 - INFO - [2, 3, 3, 9, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:16,344 - INFO - [1]
+2024-01-09 10:19:16,344 - INFO - ['S3', 'D9', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,344 - INFO - [2, 3, 3, 9, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,356 - INFO - [3]
+2024-01-09 10:19:16,357 - INFO - ['S3', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:16,357 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:16,368 - INFO - [1]
+2024-01-09 10:19:16,372 - INFO - ['S3', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:16,372 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:16,384 - INFO - [3]
+2024-01-09 10:19:16,384 - INFO - ['S3', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:16,384 - INFO - [2, 3, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:16,396 - INFO - [1]
+2024-01-09 10:19:16,396 - INFO - ['S3', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,396 - INFO - [2, 3, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,408 - INFO - [3]
+2024-01-09 10:19:16,408 - INFO - ['S3', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,408 - INFO - [2, 3, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,420 - INFO - [3]
+2024-01-09 10:19:16,420 - INFO - ['D9', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:16,420 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:16,432 - INFO - [0]
+2024-01-09 10:19:16,433 - INFO - ['D9', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:16,433 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:16,444 - INFO - [1]
+2024-01-09 10:19:16,445 - INFO - ['D9', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:16,445 - INFO - [3, 9, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:16,457 - INFO - [0]
+2024-01-09 10:19:16,457 - INFO - ['D9', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,457 - INFO - [3, 9, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,469 - INFO - [1]
+2024-01-09 10:19:16,469 - INFO - ['D9', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,469 - INFO - [3, 9, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,482 - INFO - [1]
+2024-01-09 10:19:16,483 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:16,483 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:16,494 - INFO - [1]
+2024-01-09 10:19:16,494 - INFO - Best hands: {1: 3, 0: 13, 3: 3}
+2024-01-09 10:19:16,494 - INFO - teamACN2 Best hand: 3
+2024-01-09 10:19:16,494 - INFO - teamACN2 Highest Rank in Hand: 3
+2024-01-09 10:19:16,494 - INFO - action played teamACN2: raise, 4062.438
+2024-01-09 10:19:18,500 - INFO - Round: 19
+2024-01-09 10:19:18,500 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 4062.438}, {'action': 'raise', 'amount': {'min': 5416.584000000001, 'max': 6417.46}}]
+2024-01-09 10:19:18,500 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:19:18,501 - INFO - round_state teamACN: {'street': 'river', 'pot': {'main': {'amount': 6810.73}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 3709.168, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9479.021999999997, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'RAISE', 'amount': 1354.146, 'paid': 1354.146, 'add_amount': 1354.146, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2708.292, 'paid': 2708.292, 'add_amount': 1354.146, 'uuid': '0'}, {'action': 'RAISE', 'amount': 4062.438, 'paid': 2708.2920000000004, 'add_amount': 1354.1460000000002, 'uuid': '1'}]}}
+2024-01-09 10:19:18,501 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,501 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:18,501 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:18,538 - INFO - [1]
+2024-01-09 10:19:18,538 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:18,538 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:18,552 - INFO - [1]
+2024-01-09 10:19:18,552 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:18,552 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:18,563 - INFO - [1]
+2024-01-09 10:19:18,563 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:18,564 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:18,575 - INFO - [1]
+2024-01-09 10:19:18,575 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:18,575 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:18,587 - INFO - [2]
+2024-01-09 10:19:18,587 - INFO - ['H5', 'CJ', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:18,587 - INFO - [1, 5, 4, 11, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:18,599 - INFO - [1]
+2024-01-09 10:19:18,599 - INFO - ['H5', 'CJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:18,599 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:18,611 - INFO - [0]
+2024-01-09 10:19:18,611 - INFO - ['H5', 'CJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:18,611 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:18,626 - INFO - [1]
+2024-01-09 10:19:18,626 - INFO - ['H5', 'CJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:18,626 - INFO - [1, 5, 4, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:18,641 - INFO - [0]
+2024-01-09 10:19:18,641 - INFO - ['H5', 'CJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,641 - INFO - [1, 5, 4, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,653 - INFO - [1]
+2024-01-09 10:19:18,653 - INFO - ['H5', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:18,653 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:18,666 - INFO - [0]
+2024-01-09 10:19:18,666 - INFO - ['H5', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:18,666 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:18,677 - INFO - [1]
+2024-01-09 10:19:18,677 - INFO - ['H5', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:18,677 - INFO - [1, 5, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:18,690 - INFO - [0]
+2024-01-09 10:19:18,690 - INFO - ['H5', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,690 - INFO - [1, 5, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,701 - INFO - [1]
+2024-01-09 10:19:18,701 - INFO - ['H5', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,701 - INFO - [1, 5, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,713 - INFO - [1]
+2024-01-09 10:19:18,713 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:18,713 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:18,725 - INFO - [1]
+2024-01-09 10:19:18,725 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:18,725 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:18,737 - INFO - [2]
+2024-01-09 10:19:18,737 - INFO - ['CJ', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:18,737 - INFO - [4, 11, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:18,749 - INFO - [1]
+2024-01-09 10:19:18,750 - INFO - ['CJ', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,750 - INFO - [4, 11, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,762 - INFO - [1]
+2024-01-09 10:19:18,762 - INFO - ['CJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,762 - INFO - [4, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,776 - INFO - [1]
+2024-01-09 10:19:18,776 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:18,776 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:18,787 - INFO - [1]
+2024-01-09 10:19:18,787 - INFO - Best hands: {1: 11, 2: 11, 0: 13}
+2024-01-09 10:19:18,787 - INFO - teamACN Best hand: 2
+2024-01-09 10:19:18,787 - INFO - teamACN Highest Rank in Hand: 11
+2024-01-09 10:19:18,787 - INFO - action played teamACN: raise, 5416.584000000001
+2024-01-09 10:19:20,793 - INFO - Round: 19
+2024-01-09 10:19:20,793 - INFO - valid_actions teamACN2: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 5416.584000000001}, {'action': 'raise', 'amount': {'min': 6770.730000000001, 'max': 13541.459999999997}}]
+2024-01-09 10:19:20,794 - INFO - hole_card teamACN2: ['S3', 'D9']
+2024-01-09 10:19:20,794 - INFO - round_state teamACN2: {'street': 'river', 'pot': {'main': {'amount': 9519.022}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 1, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 1000.8759999999993, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 9479.021999999997, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'RAISE', 'amount': 1354.146, 'paid': 1354.146, 'add_amount': 1354.146, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2708.292, 'paid': 2708.292, 'add_amount': 1354.146, 'uuid': '0'}, {'action': 'RAISE', 'amount': 4062.438, 'paid': 2708.2920000000004, 'add_amount': 1354.1460000000002, 'uuid': '1'}, {'action': 'RAISE', 'amount': 5416.584000000001, 'paid': 2708.292000000001, 'add_amount': 1354.1460000000006, 'uuid': '0'}]}}
+2024-01-09 10:19:20,795 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:20,796 - INFO - ['S3', 'D9', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:20,798 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:20,838 - INFO - [1]
+2024-01-09 10:19:20,838 - INFO - ['S3', 'D9', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:20,838 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:20,858 - INFO - [0]
+2024-01-09 10:19:20,858 - INFO - ['S3', 'D9', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:20,858 - INFO - [2, 3, 3, 9, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:20,869 - INFO - [1]
+2024-01-09 10:19:20,869 - INFO - ['S3', 'D9', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:20,869 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:20,881 - INFO - [1]
+2024-01-09 10:19:20,881 - INFO - ['S3', 'D9', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:20,881 - INFO - [2, 3, 3, 9, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:20,894 - INFO - [3]
+2024-01-09 10:19:20,894 - INFO - ['S3', 'D9', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:20,894 - INFO - [2, 3, 3, 9, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:20,906 - INFO - [1]
+2024-01-09 10:19:20,906 - INFO - ['S3', 'D9', 'H6', 'C3', 'SK']
+2024-01-09 10:19:20,906 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:20,919 - INFO - [1]
+2024-01-09 10:19:20,919 - INFO - ['S3', 'D9', 'H6', 'C3', 'H3']
+2024-01-09 10:19:20,919 - INFO - [2, 3, 3, 9, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:20,934 - INFO - [3]
+2024-01-09 10:19:20,934 - INFO - ['S3', 'D9', 'H6', 'SK', 'H3']
+2024-01-09 10:19:20,934 - INFO - [2, 3, 3, 9, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:20,949 - INFO - [1]
+2024-01-09 10:19:20,949 - INFO - ['S3', 'D9', 'C3', 'SK', 'H3']
+2024-01-09 10:19:20,950 - INFO - [2, 3, 3, 9, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:20,961 - INFO - [3]
+2024-01-09 10:19:20,961 - INFO - ['S3', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:20,961 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:20,974 - INFO - [1]
+2024-01-09 10:19:20,974 - INFO - ['S3', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:20,974 - INFO - [2, 3, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:20,985 - INFO - [3]
+2024-01-09 10:19:20,986 - INFO - ['S3', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:20,986 - INFO - [2, 3, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:20,998 - INFO - [1]
+2024-01-09 10:19:20,998 - INFO - ['S3', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:20,998 - INFO - [2, 3, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:21,010 - INFO - [3]
+2024-01-09 10:19:21,011 - INFO - ['S3', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:21,011 - INFO - [2, 3, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:21,023 - INFO - [3]
+2024-01-09 10:19:21,023 - INFO - ['D9', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:21,023 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:21,034 - INFO - [0]
+2024-01-09 10:19:21,034 - INFO - ['D9', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:21,034 - INFO - [3, 9, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:21,046 - INFO - [1]
+2024-01-09 10:19:21,046 - INFO - ['D9', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:21,046 - INFO - [3, 9, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:21,060 - INFO - [0]
+2024-01-09 10:19:21,060 - INFO - ['D9', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:21,060 - INFO - [3, 9, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:21,076 - INFO - [1]
+2024-01-09 10:19:21,076 - INFO - ['D9', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:21,076 - INFO - [3, 9, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:21,087 - INFO - [1]
+2024-01-09 10:19:21,087 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:21,087 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:21,099 - INFO - [1]
+2024-01-09 10:19:21,099 - INFO - Best hands: {1: 3, 0: 13, 3: 3}
+2024-01-09 10:19:21,099 - INFO - teamACN2 Best hand: 3
+2024-01-09 10:19:21,099 - INFO - teamACN2 Highest Rank in Hand: 3
+2024-01-09 10:19:21,099 - INFO - action played teamACN2: raise, 6770.730000000001
+2024-01-09 10:19:23,105 - INFO - Round: 19
+2024-01-09 10:19:23,105 - INFO - valid_actions teamACN: [{'action': 'fold', 'amount': 0}, {'action': 'call', 'amount': 6770.730000000001}, {'action': 'raise', 'amount': {'min': -1, 'max': -1}}]
+2024-01-09 10:19:23,105 - INFO - hole_card teamACN: ['H5', 'CJ']
+2024-01-09 10:19:23,106 - INFO - round_state teamACN: {'street': 'river', 'pot': {'main': {'amount': 12227.314000000002}, 'side': []}, 'community_card': ['HJ', 'H6', 'C3', 'SK', 'H3'], 'dealer_btn': 0, 'next_player': 0, 'small_blind_pos': 1, 'big_blind_pos': 0, 'round_count': 19, 'small_blind_amount': 10, 'seats': [{'name': 'player_teamACN', 'uuid': '0', 'stack': 1000.8759999999993, 'state': 'participating'}, {'name': 'player_teamACN2', 'uuid': '1', 'stack': 6770.729999999996, 'state': 'participating'}], 'action_histories': {'preflop': [{'action': 'SMALLBLIND', 'amount': 10, 'add_amount': 10, 'uuid': '1'}, {'action': 'BIGBLIND', 'amount': 20, 'add_amount': 10, 'uuid': '0'}, {'action': 'CALL', 'amount': 20, 'paid': 10, 'uuid': '1'}, {'action': 'CALL', 'amount': 20, 'paid': 0, 'uuid': '0'}], 'flop': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'turn': [{'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '1'}, {'action': 'CALL', 'amount': 0, 'paid': 0, 'uuid': '0'}], 'river': [{'action': 'RAISE', 'amount': 1354.146, 'paid': 1354.146, 'add_amount': 1354.146, 'uuid': '1'}, {'action': 'RAISE', 'amount': 2708.292, 'paid': 2708.292, 'add_amount': 1354.146, 'uuid': '0'}, {'action': 'RAISE', 'amount': 4062.438, 'paid': 2708.2920000000004, 'add_amount': 1354.1460000000002, 'uuid': '1'}, {'action': 'RAISE', 'amount': 5416.584000000001, 'paid': 2708.292000000001, 'add_amount': 1354.1460000000006, 'uuid': '0'}, {'action': 'RAISE', 'amount': 6770.730000000001, 'paid': 2708.2920000000013, 'add_amount': 1354.1460000000006, 'uuid': '1'}]}}
+2024-01-09 10:19:23,106 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,106 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'C3']
+2024-01-09 10:19:23,106 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 4, 3]
+2024-01-09 10:19:23,144 - INFO - [1]
+2024-01-09 10:19:23,144 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'SK']
+2024-01-09 10:19:23,144 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 2, 13]
+2024-01-09 10:19:23,161 - INFO - [1]
+2024-01-09 10:19:23,161 - INFO - ['H5', 'CJ', 'HJ', 'H6', 'H3']
+2024-01-09 10:19:23,161 - INFO - [1, 5, 4, 11, 1, 11, 1, 6, 1, 3]
+2024-01-09 10:19:23,173 - INFO - [1]
+2024-01-09 10:19:23,173 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'SK']
+2024-01-09 10:19:23,173 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 2, 13]
+2024-01-09 10:19:23,185 - INFO - [1]
+2024-01-09 10:19:23,185 - INFO - ['H5', 'CJ', 'HJ', 'C3', 'H3']
+2024-01-09 10:19:23,185 - INFO - [1, 5, 4, 11, 1, 11, 4, 3, 1, 3]
+2024-01-09 10:19:23,197 - INFO - [2]
+2024-01-09 10:19:23,197 - INFO - ['H5', 'CJ', 'HJ', 'SK', 'H3']
+2024-01-09 10:19:23,197 - INFO - [1, 5, 4, 11, 1, 11, 2, 13, 1, 3]
+2024-01-09 10:19:23,211 - INFO - [1]
+2024-01-09 10:19:23,211 - INFO - ['H5', 'CJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:23,211 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:23,226 - INFO - [0]
+2024-01-09 10:19:23,226 - INFO - ['H5', 'CJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:23,226 - INFO - [1, 5, 4, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:23,238 - INFO - [1]
+2024-01-09 10:19:23,238 - INFO - ['H5', 'CJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:23,238 - INFO - [1, 5, 4, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:23,250 - INFO - [0]
+2024-01-09 10:19:23,250 - INFO - ['H5', 'CJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,250 - INFO - [1, 5, 4, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,262 - INFO - [1]
+2024-01-09 10:19:23,262 - INFO - ['H5', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:23,262 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:23,273 - INFO - [0]
+2024-01-09 10:19:23,273 - INFO - ['H5', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:23,273 - INFO - [1, 5, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:23,285 - INFO - [1]
+2024-01-09 10:19:23,285 - INFO - ['H5', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:23,285 - INFO - [1, 5, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:23,298 - INFO - [0]
+2024-01-09 10:19:23,298 - INFO - ['H5', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,298 - INFO - [1, 5, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,309 - INFO - [1]
+2024-01-09 10:19:23,310 - INFO - ['H5', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,310 - INFO - [1, 5, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,322 - INFO - [1]
+2024-01-09 10:19:23,322 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'SK']
+2024-01-09 10:19:23,322 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 2, 13]
+2024-01-09 10:19:23,333 - INFO - [1]
+2024-01-09 10:19:23,333 - INFO - ['CJ', 'HJ', 'H6', 'C3', 'H3']
+2024-01-09 10:19:23,333 - INFO - [4, 11, 1, 11, 1, 6, 4, 3, 1, 3]
+2024-01-09 10:19:23,344 - INFO - [2]
+2024-01-09 10:19:23,345 - INFO - ['CJ', 'HJ', 'H6', 'SK', 'H3']
+2024-01-09 10:19:23,345 - INFO - [4, 11, 1, 11, 1, 6, 2, 13, 1, 3]
+2024-01-09 10:19:23,356 - INFO - [1]
+2024-01-09 10:19:23,356 - INFO - ['CJ', 'HJ', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,356 - INFO - [4, 11, 1, 11, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,369 - INFO - [1]
+2024-01-09 10:19:23,369 - INFO - ['CJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,369 - INFO - [4, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,384 - INFO - [1]
+2024-01-09 10:19:23,384 - INFO - ['HJ', 'H6', 'C3', 'SK', 'H3']
+2024-01-09 10:19:23,384 - INFO - [1, 11, 1, 6, 4, 3, 2, 13, 1, 3]
+2024-01-09 10:19:23,395 - INFO - [1]
+2024-01-09 10:19:23,395 - INFO - Best hands: {1: 11, 2: 11, 0: 13}
+2024-01-09 10:19:23,395 - INFO - teamACN Best hand: 2
+2024-01-09 10:19:23,395 - INFO - teamACN Highest Rank in Hand: 11
+2024-01-09 10:19:23,395 - INFO - action played teamACN: call, 6770.730000000001
